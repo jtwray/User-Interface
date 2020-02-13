@@ -170,16 +170,14 @@ header {
   width: 100%;
   padding-left: 5%;
   margin:2rem auto 15px;
-  border:2px dashed pink;
+
 }
 
 nav {
   display: inline-block;
-  /* margin: 3rem auto 15px; */
   width: 100%;
-  border:2px solid orange;
   vertical-align: center;
-  /* padding:2rem  0 ; */
+
 }
 
 nav a {
@@ -194,7 +192,6 @@ nav a {
 
 .logo {
   vertical-align: middle;
-  /* float:right; */
   margin-right: 4%;
 }
 
