@@ -168,16 +168,15 @@ h5 {
 header {
   display: inline-block;
   width: 100%;
-  padding-left: 5%;
   margin:2rem auto 15px;
-
 }
 
 nav {
   display: inline-block;
   width: 100%;
+  border:2px solid orange;
   vertical-align: center;
-
+  padding:2rem  0 ;
 }
 
 nav a {
@@ -185,14 +184,15 @@ nav a {
   font-size: 16px;
   color: #888;
   text-align: center;
-  padding: 0 2.5%;
+  padding:0 1.5%;
   vertical-align: middle;
   
 }
 
 .logo {
   vertical-align: middle;
-  margin-right: 4%;
+  float:right;
+   margin-right: 4%;
 }
 
 nav + div h1 {
@@ -204,18 +204,12 @@ nav + div h1 {
 
 header div {
   display: inline-block;
-  width: 45%;
+  /* width: 45%; */
   /* border: 5px solid pink; */
   vertical-align: middle;
   text-align: center;
   margin: 5% auto;
   padding-left: 10%;
-}
-
-header div + img {
-  display: inline-block;
-  width: 40%;
-  vertical-align: top;
 }
 
 button {
@@ -240,7 +234,7 @@ button {
 
 .bottomtext div {
   display: inline-block;
-  /* border: 5px solid green; */
+
   width: 33%;
   margin: 40px 0;
   padding: 1%;
@@ -252,8 +246,7 @@ address {
 }
 
 footer {
-  margin: auto;
-  text-align: center;
-  margin-top: 40px;
-}
 
+  text-align: center;
+
+}
