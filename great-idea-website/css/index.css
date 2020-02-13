@@ -84,14 +84,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -106,49 +105,48 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 
 /* Set every element's box-sizing to border-box */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100vh;
-    font-family: 'Titillium Web', sans-serif;
-   max-width:880px;
-   margin: 0 auto;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+  max-width: 880px;
+  margin: 0 auto;
 }
 
 h1,
@@ -156,104 +154,109 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
-
 
 /* Your code starts here! */
 
 * {
-    margin: auto;
+  margin: auto;
 }
 
 header {
-    display: inline-block;
-    width: 100%;
-    padding-left: 5%;
+  display: inline-block;
+  width: 100%;
+  padding-left: 5%;
+  margin:2rem auto 15px;
+  border:2px dashed pink;
 }
 
 nav {
-    display: inline-block;
-    margin: 0 auto 15px;
-    width: 100%;
+  display: inline-block;
+  /* margin: 3rem auto 15px; */
+  width: 100%;
+  border:2px solid orange;
+  vertical-align: center;
+  /* padding:2rem  0 ; */
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #888;
-    text-align: center;
-    padding: 0 3%;
+  text-decoration: none;
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  padding: 0 2.5%;
+  vertical-align: middle;
+  
 }
 
 .logo {
-    vertical-align: middle;
-    float: right;
-    margin-right: 4%;
+  vertical-align: middle;
+  /* float:right; */
+  margin-right: 4%;
 }
 
-nav+div h1 {
-    font-size: 72px;
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: .10ch;
+nav + div h1 {
+  font-size: 72px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1ch;
 }
 
 header div {
-    display: inline-block;
-    width: 45%;
-    /* border: 5px solid pink; */
-    vertical-align: middle;
-    text-align: center;
-    margin: 5% auto;
-    padding-left: 10%;
+  display: inline-block;
+  width: 45%;
+  /* border: 5px solid pink; */
+  vertical-align: middle;
+  text-align: center;
+  margin: 5% auto;
+  padding-left: 10%;
 }
 
-header div+img {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
+header div + img {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
 }
 
 button {
-    padding: 7px 40px;
-    border: 3px solid #000000;
-    font-size: 16px;
-    letter-spacing: .25ch;
+  padding: 7px 40px;
+  border: 3px solid #000000;
+  font-size: 16px;
+  letter-spacing: 0.25ch;
 }
 
 .toptext div {
-    display: inline-block;
-    /* border: 5px solid blue; */
-    width: 49%;
-    margin: 40px auto;
-    padding: 2.5%
+  display: inline-block;
+  /* border: 5px solid blue; */
+  width: 49%;
+  margin: 40px auto;
+  padding: 2.5%;
 }
 
 .middle-img {
-    width: 98%;
-    margin: 0 1%;
+  width: 98%;
+  margin: 0 1%;
 }
 
 .bottomtext div {
-    display: inline-block;
-    /* border: 5px solid green; */
-    width: 33%;
-    margin: 40px 0;
-    padding: 1%;
+  display: inline-block;
+  /* border: 5px solid green; */
+  width: 33%;
+  margin: 40px 0;
+  padding: 1%;
 }
 
 address {
-    width: 150px;
-    margin: 40px 1%;
+  width: 150px;
+  margin: 40px 1%;
 }
 
 footer {
-    margin: auto;
-    text-align: center;
-    margin-top: 40px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
 }
 
-f
